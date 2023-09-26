@@ -3,33 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'">
+
     <title>Kenin</title>
 </head>
 <body>
-    <div class="intro">
+    <header>
         <h1>Kenin Araújo Rodrigues</h1>
         <h3>Developer</h3>
-    </div>
-    <div id="menu">
-        <nav>
-            <ol>
-                <li><a href="#About me">Home</a></li>
-                <li><a href="">About me</a></li>
-                <li><a href="">Resum</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Portifolio</a></li>
-                <li><a href="">Contact</a></li>
-            </ol>
-        </nav>
-
-        <main>
-            <div class="conteúdo">
-                <div id="About me">
-                    <h2>About me</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nisl a ligula vestibulum, vel dictum urna congue. Vivamus nec justo non velit suscipit vulputate sed non eros. Praesent dignissim, justo a bibendum vulputate, est elit congue velit, nec efficitur dui nunc eu odio. Nullam vel facilisis lectus. Quisque ac tincidunt metus, non tempor metus. Etiam bibendum fringilla viverra. Aenean nec libero ut lorem egestas fermentum</p>
-                </div>
-            </div>
-        </main>
-    </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Visit my portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about-me">
+            <h2>About me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>API Rest</li>
+            </ul>
+        </section>
+        <section id="portfolio">
+            <h2>Visit my portfolio</h2>
+            <a href="https://github.com/KeninAraujo/site-pessoal">Meu site pessoal</a>
+        </section>
+    </main>
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <a href="#">Linkedin</a>
+            <a href="#">E-mail</a>
+            <a href="#">Instagram</a>
+            <a href="#">Phone</a>
+        </section>
+    </footer>
 </body>
 </html>
